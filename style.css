@@ -244,17 +244,13 @@ form {
   color: #fff;
 }
 
-[for="name"],
-[for="email"],
-[for="message"] {
+[for="name"], [for="email"], [for="message"] {
   color: #fff;
   margin: 10px 0; 
   text-transform: uppercase;
 }
 
-[type="text"],
-[type="email"],
-[type="text"] {
+[type="text"], [type="email"], [type="text"] {
   width: 100%;
   margin-bottom: 20px; 
   padding: 8px; 
