@@ -234,8 +234,8 @@ div:empty {
 form {
   display: flex;
   flex-direction: column;
-  width: 86%;
-  justify-content: center;
+  align-items: center; 
+  width: 80%; 
   margin: 0 auto;
 }
 
@@ -249,25 +249,21 @@ form {
 [for="email"],
 [for="message"] {
   color: #fff;
-  margin: 10px 0 10px 10px;
+  margin: 10px 0; 
   text-transform: uppercase;
 }
 
 [type="text"],
 [type="email"],
 [type="text"] {
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
-
-input {
-  padding: 8px 0;
+  width: 100%;
+  margin-bottom: 20px; 
+  padding: 8px; 
 }
 
 ::placeholder {
   color: #007d7b;
   font-weight: 700;
-  display: inline-block;
   padding: 0 6px;
 }
 
