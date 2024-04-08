@@ -57,6 +57,11 @@ table {
   vertical-align: baseline;
 }
 
+nav h2 {
+  visibility:hidden;
+  height:1px;
+}
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
 }
